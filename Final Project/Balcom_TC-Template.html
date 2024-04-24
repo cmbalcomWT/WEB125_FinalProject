@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>TITLE</title>
+        <link type="text/css" rel="stylesheet" href="css/Balcom_TC-Styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <header>
+            <!--Logo Here??-->
+            <h1>Tyrrell County</h1>
+            <h3>North Carolina</h3>
+        </header>
+
+        <main>
+            <nav>
+                <a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                    <i class="fa fa-bars"></i>
+                </a>
+
+                <div id="links">
+                    <a href="Balcom_TC-Home.html">Home</a>
+                    <a href="Balcom_TC-County.html">County Departments</a>
+                    <a href="Balcom_TC-Bills.html">Bills And Permits</a>
+                    <a href="Balcom_TC-Safety.html">Public Safety</a>
+                    <a href="Balcom_TC-Careers.html">Careers</a>
+                    <a href="Balcom_TC-Contact.html">Contact Us</a>
+                </div>
+            </nav>
+
+            <div>
+                <h1>Header 1</h1>
+                <h2>Header 2</h2>
+                <h3>Header 3</h3>
+                <h4>Header 4</h4>
+                <p>Paragraph</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>108 S. Water St. Colombia, NC 27925 P.O Box 449 | (252)796-1371</p>
+            <p>Find Us On: </p>
+            <p><a href="https://www.facebook.com/" target="_blank">Facebook</a> <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a href="https://twitter.com/?lang=en" target="_blank">X (Formerly Twitter)</a></p>
+        </footer>
+
+        <script>
+            function menuToggle(){
+                var n = document.getElementById("links");
+                if(n.style.display === "block"){
+                    n.style.display = "none";
+                }
+                else{
+                    n.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>

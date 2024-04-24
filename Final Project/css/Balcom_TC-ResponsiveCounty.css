@@ -1,0 +1,25 @@
+@media screen and (min-width: 1000px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+        align-items: start;
+    }
+
+    .grid-item{
+        padding-bottom: 1.5em;
+    }
+
+    .borderBottom{
+        border-style: none;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5%;
+        row-gap: 3%;
+        align-items: start;
+        padding-bottom: 5em;
+    }
+}
